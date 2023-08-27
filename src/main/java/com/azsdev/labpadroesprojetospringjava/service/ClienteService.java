@@ -7,9 +7,9 @@ import java.util.List;
 public interface ClienteService {
 
     List<ClienteDTO> buscarTodos();
-    ClienteDTO BuscarPorId(Long id);
+    ClienteDTO buscarPorId(Long id);
     void inserir(ClienteDTO dto);
-    void atualisar(Long id,ClienteDTO dto);
+    void atualizar(Long id,ClienteDTO dto);
     void deletar(Long id);
 
 }
